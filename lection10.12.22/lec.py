@@ -27,9 +27,11 @@
 # for i in range(2, 10,):
 #   print(i)
 
-original = 123
-invaled = 0
-while original != 0:
-    invaled = invaled*10+(original % 10)
-    original //= 10
-print(invaled)
+#original = 123
+#invaled = 0
+#while original != 0:
+#    invaled = invaled*10+(original % 10)
+#    original //= 10
+#print(invaled)
+d = {'a': 50, 'b': 150, 'c': 20}
+print(f"{d['a'] + d['b']}" + str(d['c']))
